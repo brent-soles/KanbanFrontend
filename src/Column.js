@@ -65,7 +65,7 @@ class Column extends React.Component {
                 </HeaderStyle>
                 <div className="board-body">
                     {children}
-                    <TertiaryButton onClick={(e) => addCardHandler(e, id)}>{`+ to create an item`}</TertiaryButton>                    
+                    <TertiaryButton onClick={(e) => addCardHandler(e, id)}>{`Create An Item`}</TertiaryButton>                    
                 </div>
             </ColumnStyle>
         )

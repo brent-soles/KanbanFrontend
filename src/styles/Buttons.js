@@ -39,11 +39,10 @@ export const SecondaryButton = styled.button`
 `;
 
 export const TertiaryButton = styled.button`
-    ${ commonButtonStyles }
+		${ commonButtonStyles }
     font-size: 20px;
-    padding: 1px;
-    background-color: transparent;
-    padding: 2px;
+    background-color: ${ ActionColor };
+    padding: 8px;
 
 `;
 

@@ -8,7 +8,12 @@ const CardStyle = styled.div`
 
     p {
         display: inline-block;
-    }
+		}
+
+		button {
+			background: transparent;
+			color: #cecece;
+		}
 `;
 
 
